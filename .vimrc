@@ -1,4 +1,4 @@
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " General settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let mapleader=","
@@ -21,14 +21,11 @@ set tabstop=4
 set lbr
 set tw=500
 
-set ai "Auto indent
-set si "Smart indent
-set wrap "Wrap lines
-set smartindent " smart indentation
+" took from r/vim/wiki not sure why is better like this
+set autoindent
+filetype plugin indent on
 
-"----------------------------------------
-
-set nu " numbered lines
+set rnu " set relative numbered lines
 set nowrap
 set noswapfile
 set nobackup
